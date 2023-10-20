@@ -1,0 +1,14 @@
+.press {
+    background: burlywood;
+    block-size: 500px;
+    /* margin-block-start: -72px; */
+    grid-row-start: 2;
+    display: grid;
+    grid-template-columns: var(--gridTemplateColumns);
+    grid-template-areas:  "wrapper-start phone content wrapper-end";
+}
+
+.press-content {
+    display: flex;
+    grid-area: content;
+}

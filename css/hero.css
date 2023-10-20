@@ -1,0 +1,23 @@
+.hero {
+    background: black;
+    color: white;
+    grid-row-start: 1;
+   
+    /* padding-block: 100px; */
+    block-size: 814px;
+}
+
+/* .hero-content {
+    display: flex;
+} */
+
+
+.hero-content {
+    grid-area: content;
+    /* border: 10px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
